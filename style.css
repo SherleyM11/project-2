@@ -1,6 +1,78 @@
-<<<<<<< Updated upstream
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fugaz+One&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Root typography settings */
+html{
+/*   set the following properties: 
+  font-size - this will be the base font size for the site
+  font-family - this will be the base font-family for the site
+  line-height - base line height, generally should be in the range 1.5-1.8 
+  color- primary text color for the site
+  background-color - primary background color for the site */
+/* Base Font */
+font-family: "Tomorrow", sans-serif;
+font-size: 20px;
+line-height: 1.6;
+}
+body {color: #000000; 
+  background: #45C0E1;
+}
+
+/* General heading styles */
+h1, h2, h3, h4, h5, h6{
+  set font styles for all of your headings, for example font-weight, line-height, font-family}
+
+/* Specific element text styles */
+h1{color:#000;
+
+/* Site Title */
+font-family: "Fugaz One", sans-serif;
+font-size: 75px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  /*   this is the page title */
+}
+
+h2{color: #000;
+
+/* Page Title */
+font-family: Tomorrow, sans-serif;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 20px
+}
+h3 {color: #000;
+margin: 0 auto;
+padding: 1rem;
+
+/* Page Title */
+font-family: Tomorrow, sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 37.8px;
+}
+p{color: #000;
+margin: 0 auto;
+padding: 1rem;
+
+p.intro {
+font-weight: bold;
+}
 
 
+
+
+  margin-bottom: 1rem; /* optional but usually good to have a space between paragraphs */
+}
+
+*{box-sizing: border-box;}
+img { 
+max-width: 100%;
+height:auto;
+}
 /* basic responsive image css */
 img, video{
   max-width: 100%;
@@ -42,7 +114,8 @@ Responsive video
 	width: 100%;
 	height: 100%;
 }
-=======
+
+
 
 
 
@@ -70,6 +143,7 @@ Responsive video
   clear:both;
 }
 
+
 /* 16:9 aspect ratio wrapper */
 .videoWrapper.ratio-16-9{
     padding-bottom: 56.25%; /* 9 ÷ 16 = .5625 which is 56.25% */
@@ -87,7 +161,45 @@ Responsive video
 	width: 100%;
 	height: 100%;
 }
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+/*  put cards in a basic grid */
+.card-grid {
+display: grid;
+grid-template-columns: repeat (3,1fr);
+gap: 1rem;
+}
+.card {
+display: flex;
+flex-direction: column;
+gap: 1rem;
+border: 2px solid #000000;
+background-color: #000000;
+padding: 5px;
+border-radius: 15px;
+overflow:hidden;}
+
+.card-image {
+position:relative;
+border-radius: 15px 
+}
+
+.card-actions {
+display:inline-block;
+background: #ffffff;
+padding: 10px 15px;
+border-radius: 8px;
+position: absolute;
+overflow: hidden;
+}
+.card-content p{
+font-size: 2rem;
+color:#DEDBD5;
+}
+
+.container-one{width:90%;background-color:#CA86F9;
+margin:auto;
+padding: 30px;}
+
+.container-two{width:90%;background-color:#89DAEB;
+margin:auto;
+padding: 30px;}
+

@@ -7,15 +7,20 @@
   <title>NYC Landmarks</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+
+
   <header>
-    <div class="site-title">NYC Landmarks</div>
+ <div class="site-title">NYC Landmarks</div>
   </header>
 
-  <main>
-    <h1>NYC Landmarks Virtual Tour</h1>
+<main>
+<div class="container-one">
+
+<h1>NYC Landmarks Virtual Tour</h1>
     <p class="intro">This site highlights some interesting landmarks across New York City's five boroughs.</p>
+<br>
+<p>New York City is filled with iconic landmarks that showcase its history and energy. From the Statue of Liberty and the Empire State Building to Times Square and Central Park, each site captures the spirit of the city that never sleeps.</p>
 
     <div class="videoWrapper ratio-16-9">
 
@@ -31,9 +36,9 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
-
+  </div>
+<div class="container-two">
     <h2>Featured Landmark</h2>
-
 
     <!-- Featured image using <picture> -->
     <picture>
@@ -46,64 +51,80 @@
       <!-- Fallback image -->
       <img src="images\pexels-kelsey-caroline-774981359-19122990.jpg" alt="Wonder Wheel ferris wheel at Coney Island">
     </picture>
-
+<p>The Wonder Wheel in Coney Island is one of New York City’s most beloved and enduring landmarks. Standing 150 feet tall, this iconic Ferris wheel has been thrilling visitors since it opened in 1920. Unlike ordinary Ferris wheels, the Wonder Wheel features both stationary and swinging cars, giving riders a unique mix of excitement and panoramic views of the Coney Island Boardwalk and the Atlantic Ocean. Designated a New York City landmark, it remains a symbol of classic seaside amusement and the joyful spirit of Coney Island’s historic past.</p>
     <h3>NYC Landmarks</h3>
 
     <div class="landmarks-grid">
+
+
+    <figure>
+       <article class="card">
+<div class="card-image">
+<img src="images/square/pexels-kelsey-caroline-774981359-19122990.jpg" alt="Wonder Wheel ferris wheel at Coney Island"></div>
+ <div class="card-content">
+
+<p class="card-desc">Wonder Ferris Wheel</p>
+</div>
+<div class="card-actions"><a href="https://www.pexels.com/photo/ferris-wheel-in-amusement-park-19122990/">Photo by Kelsey
+Caroline</a></div>
+</article>
+</figure>
+
       <figure>
-        <img src="images/square/pexels-kelsey-caroline-774981359-19122990.jpg"
-          alt="Wonder Wheel ferris wheel at Coney Island">
-        <figcaption><a href="https://www.pexels.com/photo/ferris-wheel-in-amusement-park-19122990/">Photo by Kelsey
-            Caroline</a></figcaption>
+ <article class="card">
+<div class="card-image">
+<img src="images/square/pexels-malcolmhill-12360516.jpg" alt="Yankee Stadium"></div>
+<div class="card-content">
+<p class="card-desc">Yankee Stadium</p>
+</div>
+<div class="card-actions"><a href="https://www.pexels.com/photo/yankee-stadium-under-the-blue-sky-12360516/">Photo by Malcolm
+            Hill</a></div>
+</article>
       </figure>
 
       <figure>
-        <img src="images/square/pexels-malcolmhill-12360516.jpg" alt="Yankee Stadium">
-        <figcaption><a href="https://www.pexels.com/photo/yankee-stadium-under-the-blue-sky-12360516/">Photo by Malcolm
-            Hill</a>
-        </figcaption>
-
+<article class="card">
+<div class="card-image">
+        <img src="images/square/pexels-loquellano-12404963.jpg" alt="Roosevelt Island Tramway leaving Manhattan"></div>
+<div class="card-content">
+<p>Roosevelt Island</p>
+</div>
+ <div class="card-actions"><a href="https://www.pexels.com/photo/cable-car-above-city-street-12404963/">Photo by Raphael
+            Loquellano</a></div>
+</article>
       </figure>
 
       <figure>
-        <img src="images/square/pexels-loquellano-12404963.jpg" alt="Roosevelt Island Tramway leaving Manhattan">
-        <figcaption><a href="https://www.pexels.com/photo/cable-car-above-city-street-12404963/">Photo by Raphael
-            Loquellano</a></figcaption>
-
+<article class="card">
+<div class="card-image">
+        <img src="images/square/pexels-mora-versio-2150673251-34091093.jpg" alt="Statue of Liberty"></div>
+<div class="card-content">
+<p>Statue of Liberty</p></div>
+        <div class="card-actions"><a href="https://www.pexels.com/photo/statue-of-liberty-in-new-york-city-usa-34091093/">Photo by
+            Mora Versio</a></div>
+</article>
       </figure>
 
       <figure>
-        <img src="images/square/pexels-mora-versio-2150673251-34091093.jpg" alt="Statue of Liberty">
-        <figcaption><a href="https://www.pexels.com/photo/statue-of-liberty-in-new-york-city-usa-34091093/">Photo by
-            Mora Versio</a></figcaption>
-
-      </figure>
-
-      <figure>
+<article class="card">
+<div class="card-image">
         <img src="images/square/pexels-tracehudson-2424391.jpg"
-          alt="Empire State Building with lower Manhattan in the background">
-        <figcaption>
-          <a href=" https://www.pexels.com/photo/empire-state-building-2424391/">Photo by Trace Hudson</a>
-
-        </figcaption>
-      </figure>
-
-      <figure>
-        <img src="images/square/praswin-prakashan-YOCN1a1m_dg-unsplash.jpg"
-          alt=" Staten Island Ferry pulling into the dock">
-        <figcaption>
-          <a href="https://unsplash.com/photos/a-large-ferry-boat-in-a-body-of-water-YOCN1a1m_dg">Photo by Praswin
-            Prakashan</a>
-
-        </figcaption>
+          alt="Empire State Building with lower Manhattan in the background"></div>
+<div class="card-content">
+<p>Empire State Building</p>
+</div>
+<div class="card-actions"><a href=" https://www.pexels.com/photo/empire-state-building-2424391/">Photo by Trace Hudson</a></div>
+</article>
 
       </figure>
-    </div>
-  </main>
+</div>
+</div>
+</main>
 
   <footer>
     <p>Site by Sherley Martinez</p>
   </footer>
-</body>
 
+
+</body>
 </html>
