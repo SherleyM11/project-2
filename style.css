@@ -23,7 +23,6 @@ h1, h2, h3, h4, h5, h6{
 
 /* Specific element text styles */
 h1{color:#000;
-
 /* Site Title */
 font-family: "Fugaz One", sans-serif;
 font-size: 75px;
@@ -32,7 +31,10 @@ font-weight: 500;
 line-height: normal;
   /*   this is the page title */
 }
-
+.main-nav{
+  display:inline;
+ margin-left:10px;
+}
 h2{color: #000;
 
 /* Page Title */
