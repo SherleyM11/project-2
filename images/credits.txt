@@ -27,3 +27,8 @@ src: pexels-loquellano-12404963.jpg
 alt: Roosevelt Island Tramway leaving Manhattan
 caption: Photo by Raphael Loquellano
 url: https://www.pexels.com/photo/cable-car-above-city-street-12404963/
+
+src: pexels-life-of-pix-7613
+alt: Manhattan skyline
+caption: Photo by Life Of Pix
+url: https://www.pexels.com/photo/photography-of-empire-state-new-york-7613/
